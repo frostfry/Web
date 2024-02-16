@@ -1,133 +1,42 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
-<head> 
+<head>
 
-    <title> Miku </title>
-    <link rel="icon" type="image/x-icon" href="https://s1.zerochan.net/Hatsune.Miku.600.174274.jpg">
-    <link rel="stylesheet" href="style.css">
-
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="frostfry">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 
-    <style>
-
-        body {
-           background-image: url('https://s1.zerochan.net/Hatsune.Miku.600.609369.jpg');
-           background-size: 100% 100%;
-           background-attachment: fixed;
-           background-repeat: no-repeat;
-        }
-    
-        .tablecenter {
-            margin-left: auto;
-            margin-right: auto;
-        }
-    
-        .center {
-            margin: 0;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-        }
-    
-        .container {
-            height: 150px;
-            position: relative;
-            border: 3px;
-        }
-        
-        .roundcorner {
-            border-radius:7px;
-            background: teal;
-            padding:2px;
-            width: 200px;
-            height: 150px;
-        }
-
-        .shadow {
-            box-shadow: 3px 3px rgb(44, 43, 43)
-        }
-
-        .transparent {
-            background: rgba(255, 255, 255, 0.3)
-        }
-
-        #shadowBox {
-            background-color: rbg(0, 0, 0,);
-            background-color: rgba(0, 0, 0, 0.2);
-            border: 3px solid;
-        }
-
-        .rainbow {
-            text-align: center;
-            text-decoration: underline;
-            font-size: 32px;
-            letter-spacing: 5px;
-        }
-
-        .rainbow_text_animated {
-            background: linear-gradient(to right, #6666ff, #0099ff, #00ff00, #ff3399, #6666ff);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            animation: rainbow_animation 6s ease-in-out infinite;
-            background-size: 400% 100%;
-        }
-
-        @keyframes rainbow_animation {
-            0%,100% {
-                background-position: 0 0;
-            }
-
-            50% {
-                background-position: 100% 0;
-            }
-        }
-    
-    </style>
+    <script src="function.js"></script>
 
 </head>
 
 <body>
-    <div id="#shadowBox">
-    <h1 class="rainbow rainbow_text_animated transparent shadow" style="text-align:center; font-size:50px; border-width:3px; border-style:outset; border-color:black;"> ☆ Hey man welcome to my website ☆ </h1>
-    </div>
 
-    <h2 style="text-align: center; font-size: 30px;"> ﾟ･:,｡★＼(^-^ )♪ありがと♪( ^-^)/★,｡･:･ﾟ </h2>
+    <header>
+        <li id="#shadowBox">
+            <ul class="rainbow rainbow_text_animated"><a src="">FrostFry's repository</a></ul>
+            <ul><a src="">Placeholder</a></ul>
+            <ul><a src="">Placeholder</a></ul>
+            <ul><a src="">Placeholder</a></ul>
+        </li>
+    </header>
 
-    <table class="tablecenter shadow" bgcolor="black" width="800" style="border-style: outset;">
-        <tr bgcolor="aqua">
-            <th style="font-size:25px;" colspan="4"> ︻デ═一 ︻デ═一 ︻デ═一 ︻デ═一 ︻デ═一 ︻デ═一 ︻デ═一 </th>
-        </tr>
-        <tr bgcolor="lightseagreen" align="center">
-            <td><video controls src="mikuu.mp4" width="350"></video></td>
-            <td> ╥﹏╥ Miku, Miku, Oo ee oooo </td>
-            <td> ╥﹏╥ Meow Meow Meow Meow </td>
-            <td><video controls src="PortalVT2_20230824_031523.mp4" width="350"></video></td>
-        </tr>
-    </table>
+    <nav>
+        <li>
+            <ul><a src="">Nav Placeholder</a></ul>
+            <ul><a src="">Nav Placeholder</a></ul>
+            <ul><a src="">Nav Placeholder</a></ul>
+            <ul><a src="">Nav Placeholder</a></ul>
+            <ul id="ulButton"><button class="modebutton" onclick="myFunction()">Light Mode</button></ul>
+        </li>
+    </nav>
 
-<div class="container">
-    <div class="center">
-            <button style="font-size: 35px; font-family:'Courier New', Courier, monospace; background-color: lightseagreen; border-color: black;"> Click if you love Miku </button>
-    </div>
-</div>
-    
-    <table class="tablecenter shadow" bgcolor="black" width="800" style="border-style: outset;">
-        <tr bgcolor="aqua">
-            <th>The missile knows where it is at all times. It knows this because it knows where it isn't. By subtracting where it is from where it isn't, or where it isn’t from where it is, it obtains a difference or deviation. The guidance subsystem uses deviations to generate corrective commands to drive the missile from a position where it is to a position where it isn't and arriving at a position that it wasn't, it now is. Consequently, the position where it is is now the position that it wasn't, and it follows that the position that it was is now the position that it isn't. In the event that the position that it is in is not the position that it wasn't, the system has acquired a variation. The variation being the difference between where the missile is and where it wasn't. If variation is considered to be a significant factor, it too may be corrected by the GEA. However, the missile must also know where it was. The missile guidance computer scenario works as follows: Because a variation has modified some of the information that the missile has obtained, it is not sure just where it is. However, it is sure where it isn't, within reason, and it knows where it was. It now subtracts where it should be from where it wasn't, or vice-versa. And by differentiating this from the algebraic sum of where it shouldn't be and where it was, it is able to obtain the deviation and its variation, which is called error. 
-            </th>
-            <th><img src="mikugif.gif" height="400"></th>
-        </tr>
-    </table>
-
-    <p class="transparent shadow" style="text-align: center; font-size:40px; border-width:3px; border-style:outset; border-color:black;">BYE BYE 🤫🧏</p>
-
-    <script src="index.js"></script>
+    <main class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, neque non? Doloremque consequuntur corrupti, deleniti voluptate pariatur dolorum voluptates accusantium laboriosam possimus ipsa ex nesciunt, culpa sit expedita incidunt ea?</p>
+    </main>
 
 </body>
 
