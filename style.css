@@ -44,17 +44,19 @@ nav ul {
     margin-right: 30px;
 }
 
-p {
-    width: 100%;
+main {
+    padding: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 /* Classes below */
 
 .container {
+    border-color: grey;
     border-left-style: solid;
     border-right-style: solid;
-    max-width: 100%;
-    padding: 30px 20%;
+    border-width: 1px;
 }
 
 .light-mode {
@@ -62,7 +64,13 @@ p {
     color: black;
 }
 
+.button-dark-mode {
+    background-color: rgb(24, 24, 58);
+    color: white;
+}
+
 .modebutton {
+    font-size: 20px;
     padding: 10px;
     border-radius: 10px;
 }
@@ -103,6 +111,5 @@ p {
 
 #ulButton {
     max-width: 100%;
-    position: absolute;
     margin-left: 900px;
 }
