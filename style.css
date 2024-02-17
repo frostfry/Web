@@ -45,9 +45,31 @@ nav ul {
 }
 
 main {
+    height: calc(100%);
     padding: 30px;
     margin-left: 25%;
     margin-right: 25%;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 30px;
+    border-top: 1px grey;
+    border-top-style: solid;
+    text-align: center;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer ul {
+    width: 100%;
+    display: inline;
+    margin-right: 30px;
 }
 
 /* Classes below */
