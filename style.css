@@ -98,6 +98,52 @@ footer ul {
     border-radius: 10px;
 }
 
+/* Calculator */
+.calcbutton {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.operator-btn {
+    background-color: grey;
+}
+
+.operator-btn:hover {
+    background-color: rgb(112, 112, 112);
+}
+
+.operator-btn:active {
+    background-color: rgb(83, 83, 83);
+}
+
+#display {
+    width: 100%;
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+    border: none;
+    background-color: lightgrey;
+}
+
+#calculator {
+    border-style: solid;
+    border-color: grey;
+    border-radius: 5px;
+    max-width: 200px;
+    overflow: hidden;
+}
+
+#keys {
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* Rainbow Text */
 .rainbow {
     text-align: center;
     text-decoration: underline;
@@ -123,8 +169,6 @@ footer ul {
         background-position: 100% 0;
     }
 }
-
-/* Id's below */
 
 #shadowBox {
     background-color: rbg(0, 0, 0,);
